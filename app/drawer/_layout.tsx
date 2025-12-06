@@ -58,6 +58,18 @@ const DrawerLayout = () => {
             )
           }}
         />
+        <Drawer.Screen
+          name="realtime-crud/index" 
+          options={{
+            drawerLabel: 'Realtime CRUD',
+            title: 'Francisco Daniel Palacio Hernández',
+            drawerIcon:({color,size})=>(
+              <Ionicons name='create-outline'
+              size={size} color={color}>
+              </Ionicons>
+            )
+          }}
+        />
       </Drawer>
     </GluestackUIProvider> 
   )
